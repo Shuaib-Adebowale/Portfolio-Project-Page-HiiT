@@ -1,0 +1,645 @@
+html{
+    scroll-behavior: smooth;
+} 
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+   background-image: url(images/gradient-dark-blue-futuristic-digital-grid-background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 400px;
+   margin-bottom: 200px;
+}
+
+body{
+    background: linear-gradient(0deg, rgba(45, 14, 236, 0.84) 0%, rgba(45, 14, 236, 0.84) 100%), #FFF;
+}
+
+/*  HEAD */
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+   background-image: url(images/gradient-dark-blue-futuristic-digital-grid-background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+}
+.head h1{
+    color: rgba(255, 255, 255, 0.99);
+    font-family: 'Hanalei';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: all 1.4s ease;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+.nav-list{
+    margin: 0 20px;
+    list-style-type: none;
+}
+ul a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Jockey One';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+ul a:hover{
+    border-bottom: 3px solid #5135ee;
+    padding-bottom: 3px;
+    color: #5135ee;
+}
+.head-1{
+    display: flex;
+    justify-content: center;
+}
+.head-1 img{
+    margin: 5px 10px;
+    width: 60px;
+    height: 38px;
+    color: #fff;
+   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   transition: all 1.4s ease;
+}
+.menu-contact{
+    display: none;
+}
+#menu-button{
+    display: none;
+}
+
+
+/* HEAD-OVER */
+.head-over{
+    padding: 170px 0 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.head-element{
+    margin: 0 30px;
+    width: 40%;
+}
+.head-element h1{
+    color: #FFF;
+font-family: 'Jockey One';
+font-size: 53px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+transition: all 1.4s ease;
+
+}
+.head-element h2{
+    color: #FFF;
+font-family: 'Jockey One';
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+transition: all 1.4s ease;
+}
+.head-element p{
+   font-size: 15px;
+   font-family: 'Times New Roman', Times, serif;
+   width: 60%;
+   color: #fff;
+}
+.head-img img{
+    background: lightgray 50% / cover no-repeat;
+    width: 300px;
+    height: 338px;
+   flex-shrink: 0;
+   border-radius: 20px;
+}
+
+
+/* ABOUT-ME */
+.about-me{
+    text-align: center;
+    margin: 350px 230px 200px;
+    padding: 90px 0;
+    
+}
+.about-me h1{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Jockey One';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    transition: all 1.4s ease;
+}
+
+.about-me p{
+    color: #FFF;
+text-align: center;
+font-family: 'Jockey One';
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+transition: all 1.4s ease;
+}
+
+
+/* PROJECT */
+#project{
+    text-align: center;
+    padding: 70px 90px;
+}
+.project-1{
+    display: flex;
+    height: 58px;
+    flex-shrink: 0;
+    justify-content: space-between;
+    margin: 20px 0;
+
+}
+.project-1 h1{
+    color: #FFF;
+    font-family: 'Jockey One';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.project-1 a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Jockey One';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.project-1 a:hover{
+    border-bottom: 3px solid #0b0912;
+    padding-bottom: 3px;
+    color: #020103;
+}
+.project-2 a{
+    margin: 0 10px;
+}
+.project-image{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pimage .p3{
+    width: 343px;
+    height: 227px;
+    flex-shrink: 0; 
+   margin: 0 0 0;
+   transition: 0.5s;
+}
+.pimage .p3:hover{
+   transform: scale(1.1);
+   margin-bottom: 10px;
+}
+.folder{
+  height: 28.836px;
+  flex-shrink: 0;
+  fill: #FFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+   display: flex; 
+   z-index: -1;
+}
+
+.pimage p{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Jockey One';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 0 30px;
+}
+
+
+/* CONTACT-Me */
+.contact-me{
+    margin: 90px 20px;
+    padding: 20px 90px;
+}
+.fieldset h1{
+    color: #FFF;
+text-align: center;
+font-family: 'Jockey One';
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 90px 0;
+}
+
+
+/* SAGAR-1 */
+.sagar-1{
+    padding: 20px 90px;
+    margin: 50px 0;
+}
+input{
+    width: 494px;
+    height: 53px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    margin: 16px 0;
+    padding: 0 10px;
+    color: rgba(0, 0, 0, 0.30);
+    font-family: 'Jockey One';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#text{
+    width: 494px;
+    height: 151px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    margin: 16px 0;
+    padding: 0 10px;
+    color: #000;
+    font-family: 'Jockey One';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#sub{
+    width: 136px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 27px;
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 89px;
+    height: 32px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: 'Jockey One';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#sub:hover{
+    color: #f1ecec;
+    background-color: #110650;
+    transition: 1s;
+}
+
+
+
+/* SAGAR */
+.sagar{
+    padding: 20px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.sagar i{
+   margin: 0 10px 0 0;
+   width: 40px;
+height: 40px;
+flex-shrink: 0;
+fill: #4F35EF;
+stroke-width: 2px;
+stroke: #FFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border: 3px solid #ffff;
+border-radius: 20px;
+}
+.sagar a{
+    text-decoration: none;
+    color: #FFF;
+text-align: center;
+font-family: 'Jockey One';
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 2;
+
+}
+.fa-twitter:hover{
+    border: 3px solid #3612ea;
+    color: #fff;
+    background-color: #3612ea;
+    transition: 1s;
+}
+.fa-instagram:hover{
+    border: 3px solid #e1184a;
+    color: #fff;
+    background-color: #ea124f;
+    transition: 1s;
+}
+.fa-github:hover{
+    border: 3px solid #3612ea;
+    color: #fff;
+    background-color: #030303;
+    transition: 1s;
+}
+.sagar a:hover{
+    color: #030408;
+    transition: 1s;
+}
+
+.fa-brands {
+    fill: #4F35EF;
+    stroke-width: 2px;
+    stroke: #FFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 80px;
+    height: 90px;
+    font-size: 23px;
+    flex-shrink: 0;
+    text-align: center;
+     padding: 6px;
+}
+
+
+
+hr{
+    background: #FFF;
+    height: 4px;
+}
+
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px ;
+}
+footer p{
+    color: #fff;
+    margin: 25px 5px;
+}
+
+footer img{
+    animation: bemove 1s ease-in-out infinite;
+    animation-delay: 1s;
+}
+@keyframes bemove {
+    0%{ transform: translateX(-100px)
+    }
+    100%{transform: translateX(0)
+    }
+}
+
+/* @MEDIA */
+@media (max-width: 500px) {
+    html{
+        scroll-behavior: smooth;
+    }
+    header{
+        height: 300px;
+    }
+    /* HEAD */
+  .head{
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+  }
+  nav ul{
+    display: none;
+  }
+
+
+ /* MENU-CONTACT */
+ .menu-contact{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #2d0eec;
+    /* display: block; */
+    padding: 20px 0;
+    box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 20px;
+ }
+#menu-button{
+    display: block;
+}
+ .fa-bars{
+    color: #fff;
+    font-size: 24px;
+    width: 80%;
+    margin-right: 20px;
+    cursor: pointer;
+    text-align: right;
+}
+.fa-bars:hover{
+    transition: 1s;
+}
+ .lists{    
+    padding: 20px 0;
+}
+
+.menu-list{
+    list-style-type: none;
+    width: 100%;
+}
+.new-link{
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+    display: block;
+    padding: 20px;
+}
+
+.new-link:hover{
+    background-color: #fff;
+}
+  .head-1 img{
+    width: 50px;
+    margin: 0;
+  }
+  .head-1 h1{
+    font-size: 28px;
+  }
+
+  /* HEAD-OVER */
+  .head-over{
+    padding: 40px 0;
+    flex-direction: column;
+  }
+  .head-element{
+    margin: 20px 0;
+    width: 100%;
+}
+.head-element h1{
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+.head-element h2{
+    margin: 5px 0 5px;
+    text-align: center;
+    font-size: 27px;
+}
+ .head-img img{
+    border-radius: 20px;
+    height: 230px; 
+    margin: 20px 95px;
+    width: 50%;
+}
+
+/* ABOUT-ME */
+.about-me{
+    margin: 50px 0;
+    padding: 0;
+}
+.about-me h1{
+    margin: 50px 0 0;
+}
+.about-me p{
+    margin: 5px;
+    padding: 16px;
+    text-align: center;
+    font-size: 18px;
+ }
+
+ /* PROJECT */
+ #project{
+    text-align: center;
+    padding: 50px 10px;
+ }
+ .project-1{
+    margin:0;
+    text-align: center;
+
+}
+.project-1 h1{
+    color: #FFF;
+    font-size: 25px;
+}
+.project-1 a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 23px;
+  
+}
+.project-2 a{
+    margin: 0;
+}
+.project-image{
+    flex-direction: column;
+}
+.pimage .p3{
+    margin: 0 0 25px;
+}
+.folder{
+    display: flex;
+    margin: 0 42px;
+   padding: 10px;
+}
+
+/* CONTACT-ME */
+.contact-me{
+    margin: 0;
+    padding: 0;
+}
+.fieldset h1{
+text-align: center;
+font-size: 30px;
+}
+
+/* SAGAE-1 */
+.sagar-1{
+    margin: 0;
+    padding: 10px;
+}
+input{
+    width: 360px;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 5px;
+    font-size: 16px;
+}
+#text{
+    width: 360px;
+    height: 151px;
+    margin: 10px 0;
+    padding: 5px 5px 0;
+    font-size: 16px;
+}
+#sub{
+    width: 110px;
+    height: 42px;
+    width: 73px;
+    height: 27px;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* SAGAR */
+.sagar{
+    padding: 20px;
+    flex-direction: column;
+}
+.sagar i{
+   margin: 0 10px 10px 0;
+}
+.sagar a{
+font-size: 20px;
+}
+
+.fa-brands {
+    width: 40px;
+    height: 30px;
+    font-size: 18px;
+}
+hr{
+    width: 100%;
+}
+/* FOOTER */
+footer{
+   flex-direction: column;
+    margin: 0;
+}
+footer p{
+    color: #fff;
+    margin: 25px 10px;
+}
+
+footer img{
+    margin: 10px 0;
+  width: 50px;
+  height: 60px;
+}
+}
+
+
+
