@@ -440,7 +440,6 @@ footer img{
     top: 0;
     right: 0;
     background-color: #2d0eec;
-    /* display: block; */
     padding: 20px 0;
     box-shadow: 0 5px 1px rgba(0, 0, 0, 0.1);
     border-bottom-left-radius: 20px;
@@ -488,6 +487,7 @@ footer img{
     font-size: 28px;
   }
 
+
   /* HEAD-OVER */
   .head-over{
     padding: 40px 0;
@@ -510,7 +510,7 @@ footer img{
  .head-img img{
     border-radius: 20px;
     height: 230px; 
-    margin: 20px 95px;
+    margin: 20px 130px;
     width: 50%;
 }
 
@@ -559,9 +559,7 @@ footer img{
     margin: 0 0 25px;
 }
 .folder{
-    display: flex;
-    margin: 0 42px;
-   padding: 10px;
+    margin: 5px 55px;
 }
 
 /* CONTACT-ME */
@@ -611,6 +609,7 @@ input{
 }
 .sagar i{
    margin: 0 10px 10px 0;
+   padding: 7px;
 }
 .sagar a{
 font-size: 20px;
@@ -620,6 +619,7 @@ font-size: 20px;
     width: 40px;
     height: 30px;
     font-size: 18px;
+    padding: 5px;
 }
 hr{
     width: 100%;
@@ -640,6 +640,3 @@ footer img{
   height: 60px;
 }
 }
-
-
-
